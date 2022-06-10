@@ -1,0 +1,9 @@
+Name: Cppcheck current file
+Description: Run 'Cppcheck' for the current file
+Binding: cppcheck_addin_file
+Interactive: true
+
+Name: Cppcheck current folder
+Description: Run 'Cppcheck' for the folder of the current file
+Binding: cppcheck_addin_folder
+Interactive: true

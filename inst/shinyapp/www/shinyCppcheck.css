@@ -1,0 +1,117 @@
+@font-face {
+  font-family: Origin;
+  src: url(./origin-extrabold-webfont.woff);
+}
+
+.origin {
+  font-family: Origin, 'Helvetica Light', sans-serif;
+  letter-spacing: 2px;
+}
+
+#cppcheck pre {
+  padding: 0 5px;
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+}
+
+legend {
+  display: block;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  width: unset;
+  margin-bottom: unset;
+  color: inherit;
+}
+
+.nav > li > a {
+  padding: 2px 3px;
+  background-color: darkcyan;
+  color: white;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background-color: navy;
+  color: white;
+  cursor: default;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+#toggle {
+  text-transform: none;
+  border-radius: 4px;
+}
+
+pre.shiny-ace: {
+  border: none;
+}
+
+pre.ace_editor {
+  min-width: 100%;
+  max-width: 100%;
+  border: none;
+}
+
+.ui-resizable-handle {
+  border-top: 1px dotted orangered;
+}
+
+.pretty .state label:before {
+  background-color: lightpink;
+}
+
+.pretty input:checked~.state.p-info label:after {
+  background-color: firebrick !important;
+}
+
+.selectize-dropdown .optgroup>.optgroup-header {
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+}
+
+/* bootstrap tooltips */
+.tooltip {
+  pointer-events: none;
+}
+.tooltip > .tooltip-inner {
+  pointer-events: none;
+  background-color: #73AD21;
+  color: #FFFFFF;
+  padding: 5px;
+  font-size: 15px;
+  width: 200%;
+  max-width: 200%;
+}
+.tooltip.bottom > .tooltip-arrow {
+  border-bottom-color: #73AD21;
+}
+.tooltip.left > .tooltip-arrow {
+  border-left-color: #73AD21;
+}
+.tooltip.top > .tooltip-arrow {
+  border-top-color: #73AD21;
+}
+.tooltip.right > .tooltip-arrow {
+  border-right-color: #73AD21;
+}
